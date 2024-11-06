@@ -62,10 +62,10 @@ body {
     }
 
     .birthday-message{
-        font-size: 25px;
+        font-size: 20px;
     }
     .birthday-subtext{
-        font-size: 180px;
+        font-size: 15px;
     }
     
 
@@ -83,10 +83,10 @@ body {
     }
     
     .birthday-message{
-        font-size: 25px;
+        font-size: 20px;
     }
     .birthday-subtext{
-        font-size: 18px;
+        font-size: 15px;
     }
 
 } 
