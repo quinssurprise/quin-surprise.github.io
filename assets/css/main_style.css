@@ -72,7 +72,14 @@ body {
     .quin2-image{
         max-width: 300ox;
         max-height: 300px;
-    } 
+    }
+    
+    .birthday-message{
+        font-size: 25px;
+    }
+    .birthday-subtext{
+        font-size: 20px;
+    }
 
 } 
 
