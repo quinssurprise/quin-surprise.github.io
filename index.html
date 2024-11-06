@@ -36,9 +36,23 @@
 
         .birthday-image {
             max-width: 17%;
-            max-height: 100%;
+            height: auto;
             margin-bottom: 20px;
         }
+
+        @media (max-width: 768px) {
+            .birthday-image { 
+                max-width: 300px;
+                max-height: 300px; /* Resize for tablets */ 
+            
+            } } 
+
+        @media (max-width: 550px) {
+        .birthday-image { 
+            max-width: 300px;
+            max-height: 300px; /* Resize for mobile */ 
+        
+        } } 
         
 
         h1{
