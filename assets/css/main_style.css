@@ -50,6 +50,11 @@ body {
 }
 
 @media (max-width: 768px) {
+
+    body{
+        overflow: auto;
+    }
+
     .birthday-image { 
         max-width: 300px;
         max-height: 300px; /* Resize for tablets */ 
@@ -67,11 +72,17 @@ body {
     .birthday-subtext{
         font-size: 15px;
     }
+
     
 
 } 
 
 @media (max-width: 550px) {
+
+    body{
+        overflow: auto;
+    }
+        
     .birthday-image { 
         max-width: 300px;
         max-height: 300px; /* Resize for mobile */ 
@@ -87,6 +98,12 @@ body {
     }
     .birthday-subtext{
         font-size: 15px;
+    }
+
+    
+    .message-container{
+        overflow: auto;
+        max-height: 90vh;
     }
 
 } 
