@@ -3,8 +3,49 @@ body {
     animation: fadeIn 2.5s forwards;
 }
 
+.gallery-animation1{
+    opacity: 0;
+    animation: fadeIn 2.7s forwards;
+}
+
+.gallery-animation2{
+    opacity: 0;
+    animation: fadeIn 2.9s forwards;
+}
+
+.gallery-animation3{
+    opacity: 0;
+    animation: fadeIn 3.1s forwards;
+}
+
+.gallery-animation4{
+    opacity: 0;
+    animation: fadeIn 3.3s forwards;
+}
+
+.gallery-animation5{
+    opacity: 0;
+    animation: fadeIn 3.5s forwards;
+}
+
+.gallery-animation6{
+    opacity: 0;
+    animation: fadeIn 3.7s forwards;
+}
+
+.gallery-animation7{
+    opacity: 0;
+    animation: fadeIn 3.9s forwards;
+}
+
+
+.gallery-animation8{
+    opacity: 0;
+    animation: fadeIn 4.1s forwards;
+}
 @keyframes fadeIn {
     to {
         opacity: 1;
     }
 }
+
