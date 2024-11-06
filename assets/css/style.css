@@ -52,7 +52,18 @@ h1{
   margin-top: -70px;
   margin-left: -125px;
 }
+@media (max-width: 768px) {
+  .cake{
+    margin-top: 20px;
+  }
+  
+} 
 
+@media (max-width: 550px) {
+  .cake{
+    margin-top: 20px;
+  }
+}
 .plate {
   width: 270px;
   height: 110px;
