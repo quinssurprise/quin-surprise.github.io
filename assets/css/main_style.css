@@ -69,12 +69,6 @@ body {
     .birthday-message{
         font-size: 20px;
     }
-    .birthday-subtext{
-        font-size: 15px;
-    }
-
-    
-
 } 
 
 @media (max-width: 550px) {
@@ -82,7 +76,7 @@ body {
     body{
         overflow: auto;
     }
-        
+
     .birthday-image { 
         max-width: 300px;
         max-height: 300px; /* Resize for mobile */ 
@@ -94,12 +88,8 @@ body {
     }
     
     .birthday-message{
-        font-size: 20px;
+        font-size: 1.5em;
     }
-    .birthday-subtext{
-        font-size: 15px;
-    }
-
     
     .message-container{
         overflow: auto;
