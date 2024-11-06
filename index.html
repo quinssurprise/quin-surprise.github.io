@@ -40,8 +40,20 @@
             margin-bottom: 20px;
         }
 
-        @media (max-width: 768px) { .birthday-image { max-width: 300px; /* Resize for tablets */ } } 
-        @media (max-width: 480px) { .birthday-image { max-width: 200px; /* Resize for mobile phones */ } }
+        @media (max-width: 768px) {
+            .birthday-image { 
+                max-width: 300px;
+                max-height: max-content; /* Resize for tablets */ 
+            
+            } } 
+
+        @media (max-width: 480px) {
+        .birthday-image { 
+            max-width: 300px;
+            max-height: max-content; /* Resize for tablets */ 
+        
+        } } 
+        
 
         h1{
             font-family:Georgia, 'Times New Roman', Times, serif;
