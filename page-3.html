@@ -14,22 +14,22 @@
             align-items: center;
             height: 100vh;
             flex-direction: column;
-            overflow:auto;
+            overflow: auto;
+            padding: 20px;
             font-family: Georgia, 'Times New Roman', Times, serif;
             font-weight: 500;
             user-select: none;
         }
         .message-container {
-            margin-top: 50px;
-            margin-bottom: 50px;
             text-align: center;
             position: relative;
-            width: 75%;
+            width: 100%;
+            overflow: auto;
+            max-height: 100vh;
             text-transform: lowercase;
         }
         .scrolling-message {
             animation: scroll 10s linear forwards;
-            max-width: 100%; /* Ensure it doesn't overflow on mobile */
             padding: 0 10px; /* Add some padding for better readability */
         }
 
