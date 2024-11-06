@@ -54,12 +54,25 @@ body {
         max-width: 300px;
         max-height: 300px; /* Resize for tablets */ 
     
-    } } 
+    }
+    
+    .quin2-image{
+        max-width: 300ox;
+        max-height: 300px;
+    }
+
+} 
 
 @media (max-width: 550px) {
-.birthday-image { 
-    max-width: 300px;
-    max-height: 300px; /* Resize for mobile */ 
+    .birthday-image { 
+        max-width: 300px;
+        max-height: 300px; /* Resize for mobile */ 
 
-} } 
+    }
+    .quin2-image{
+        max-width: 300ox;
+        max-height: 300px;
+    } 
+
+} 
 
