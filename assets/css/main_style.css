@@ -61,6 +61,14 @@ body {
         max-height: 300px;
     }
 
+    .birthday-message{
+        font-size: 25px;
+    }
+    .birthday-subtext{
+        font-size: 180px;
+    }
+    
+
 } 
 
 @media (max-width: 550px) {
@@ -78,7 +86,7 @@ body {
         font-size: 25px;
     }
     .birthday-subtext{
-        font-size: 20px;
+        font-size: 18px;
     }
 
 } 
